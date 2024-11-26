@@ -1,0 +1,157 @@
+{
+  "test_parameters": {
+    "chunk_sizes": [
+      1500
+    ],
+    "overlap_sizes": [
+      0
+    ],
+    "strategies": [
+      "recursive_text_splitter"
+    ],
+    "context_retrieval": [
+      true
+    ],
+    "embeddings": [
+      "bge-m3"
+    ],
+    "prompt_type": [
+      "v3",
+      "v4",
+      "v1",
+      "v2"
+    ]
+  },
+  "all_results": [
+    {
+      "chunk_size": 1500,
+      "strategy": "recursive_text_splitter",
+      "context_retrieval": true,
+      "overlap_size": 0,
+      "embeddings": "bge-m3",
+      "prompt_type": "v3",
+      "faithfulness": 0.7706501831501831,
+      "answer_relevancy": 0.9598358832912453,
+      "answer_similarity": 0.9425199785606875,
+      "answer_correctness": 0.624804445760476,
+      "context_precision": 0.9999999999192307,
+      "context_recall": 1.0
+    },
+    {
+      "chunk_size": 1500,
+      "strategy": "recursive_text_splitter",
+      "context_retrieval": true,
+      "overlap_size": 0,
+      "embeddings": "bge-m3",
+      "prompt_type": "v4",
+      "faithfulness": 0.6633874458874459,
+      "answer_relevancy": 0.8099392118211866,
+      "answer_similarity": 0.9251576991955826,
+      "answer_correctness": 0.5187714200988077,
+      "context_precision": 0.9999999999192307,
+      "context_recall": 1.0
+    },
+    {
+      "chunk_size": 1500,
+      "strategy": "recursive_text_splitter",
+      "context_retrieval": true,
+      "overlap_size": 0,
+      "embeddings": "bge-m3",
+      "prompt_type": "v1",
+      "faithfulness": 0.7192311961542731,
+      "answer_relevancy": 0.8903277397734548,
+      "answer_similarity": 0.9408652014516113,
+      "answer_correctness": 0.5383759598142558,
+      "context_precision": 0.9999999999192307,
+      "context_recall": 1.0
+    },
+    {
+      "chunk_size": 1500,
+      "strategy": "recursive_text_splitter",
+      "context_retrieval": true,
+      "overlap_size": 0,
+      "embeddings": "bge-m3",
+      "prompt_type": "v2",
+      "faithfulness": 0.7386127761127761,
+      "answer_relevancy": 0.9609991468791522,
+      "answer_similarity": 0.9405860820934251,
+      "answer_correctness": 0.5854451699499036,
+      "context_precision": 0.9999999999192307,
+      "context_recall": 1.0
+    }
+  ],
+  "documents": [
+    {
+      "file_path": "/Users/bruno/Documents/Bruno/docs-hunter-ai/docshunter-ai-api/docshunter_ai_api/tests/fixtures/sample_docs/doc1.pdf",
+      "document_type": "pdf",
+      "document_name": "doc1",
+      "project_id": "clrts6mp60004ubznuulb7kb2"
+    },
+    {
+      "file_path": "/Users/bruno/Documents/Bruno/docs-hunter-ai/docshunter-ai-api/docshunter_ai_api/tests/fixtures/sample_docs/doc2.pdf",
+      "document_type": "pdf",
+      "document_name": "doc2",
+      "project_id": "clrts6mp60004ubznuulb7kb2"
+    },
+    {
+      "file_path": "/Users/bruno/Documents/Bruno/docs-hunter-ai/docshunter-ai-api/docshunter_ai_api/tests/fixtures/sample_docs/doc3.pdf",
+      "document_type": "pdf",
+      "document_name": "doc3",
+      "project_id": "clrts6mp60004ubznuulb7kb2"
+    },
+    {
+      "file_path": "/Users/bruno/Documents/Bruno/docs-hunter-ai/docshunter-ai-api/docshunter_ai_api/tests/fixtures/sample_docs/doc4.pdf",
+      "document_type": "pdf",
+      "document_name": "doc4",
+      "project_id": "clrts6mp60004ubznuulb7kb2"
+    },
+    {
+      "file_path": "/Users/bruno/Documents/Bruno/docs-hunter-ai/docshunter-ai-api/docshunter_ai_api/tests/fixtures/sample_docs/doc5.pdf",
+      "document_type": "pdf",
+      "document_name": "doc5",
+      "project_id": "clrts6mp60004ubznuulb7kb2"
+    },
+    {
+      "file_path": "/Users/bruno/Documents/Bruno/docs-hunter-ai/docshunter-ai-api/docshunter_ai_api/tests/fixtures/sample_docs/doc6.pdf",
+      "document_type": "pdf",
+      "document_name": "doc6",
+      "project_id": "clrts6mp60004ubznuulb7kb2"
+    },
+    {
+      "file_path": "/Users/bruno/Documents/Bruno/docs-hunter-ai/docshunter-ai-api/docshunter_ai_api/tests/fixtures/sample_docs/doc7.pdf",
+      "document_type": "pdf",
+      "document_name": "doc7",
+      "project_id": "clrts6mp60004ubznuulb7kb2"
+    },
+    {
+      "file_path": "/Users/bruno/Documents/Bruno/docs-hunter-ai/docshunter-ai-api/docshunter_ai_api/tests/fixtures/sample_docs/doc8.pdf",
+      "document_type": "pdf",
+      "document_name": "doc8",
+      "project_id": "clrts6mp60004ubznuulb7kb2"
+    },
+    {
+      "file_path": "/Users/bruno/Documents/Bruno/docs-hunter-ai/docshunter-ai-api/docshunter_ai_api/tests/fixtures/sample_docs/doc9.pdf",
+      "document_type": "pdf",
+      "document_name": "doc9",
+      "project_id": "clrts6mp60004ubznuulb7kb2"
+    },
+    {
+      "file_path": "/Users/bruno/Documents/Bruno/docs-hunter-ai/docshunter-ai-api/docshunter_ai_api/tests/fixtures/sample_docs/doc10.pdf",
+      "document_type": "pdf",
+      "document_name": "doc10",
+      "project_id": "clrts6mp60004ubznuulb7kb2"
+    },
+    {
+      "file_path": "/Users/bruno/Documents/Bruno/docs-hunter-ai/docshunter-ai-api/docshunter_ai_api/tests/fixtures/sample_docs/doc11.pdf",
+      "document_type": "pdf",
+      "document_name": "doc11",
+      "project_id": "clrts6mp60004ubznuulb7kb2"
+    },
+    {
+      "file_path": "/Users/bruno/Documents/Bruno/docs-hunter-ai/docshunter-ai-api/docshunter_ai_api/tests/fixtures/sample_docs/doc12.pdf",
+      "document_type": "pdf",
+      "document_name": "doc12",
+      "project_id": "clrts6mp60004ubznuulb7kb2"
+    }
+  ]
+}

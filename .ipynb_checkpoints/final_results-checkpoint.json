@@ -1,0 +1,158 @@
+[
+    {
+      "parameters": {
+        "chunk_size": 500,
+        "strategy": "regex",
+        "context_retrieval": true
+      },
+      "metrics": {
+        "faithfulness": 0.4307705945751486,
+        "answer_relevancy": 0.8973384685700412,
+        "answer_similarity": 0.9081340562801732,
+        "answer_correctness": 0.4467730799038299
+      }
+    },
+    {
+      "parameters": {
+        "chunk_size": 500,
+        "strategy": "regex",
+        "context_retrieval": false
+      },
+      "metrics": {
+        "faithfulness": 0.5404474143969943,
+        "answer_relevancy": 0.7034587642595431,
+        "answer_similarity": 0.9134547123016223,
+        "answer_correctness": 0.41980800564908566
+      }
+    },
+    {
+      "parameters": {
+        "chunk_size": 500,
+        "strategy": "recursive_text_splitter",
+        "context_retrieval": true
+      },
+      "metrics": {
+        "faithfulness": 0.5873008418596655,
+        "answer_relevancy": 0.9345308223450451,
+        "answer_similarity": 0.9272644429656165,
+        "answer_correctness": 0.4602697208057882
+      }
+    },
+    {
+      "parameters": {
+        "chunk_size": 500,
+        "strategy": "recursive_text_splitter",
+        "context_retrieval": false
+      },
+      "metrics": {
+        "faithfulness": 0.5608397775064442,
+        "answer_relevancy": 0.7400850940738474,
+        "answer_similarity": 0.9176768157938487,
+        "answer_correctness": 0.4310454457334449
+      }
+    },
+    {
+      "parameters": {
+        "chunk_size": 800,
+        "strategy": "recursive_text_splitter",
+        "context_retrieval": true
+      },
+      "metrics": {
+        "faithfulness": 0.6550552517657781,
+        "answer_relevancy": 0.7743247277431985,
+        "answer_similarity": 0.9200209750229578,
+        "answer_correctness": 0.503810615422932
+      }
+    },
+    {
+      "parameters": {
+        "chunk_size": 800,
+        "strategy": "recursive_text_splitter",
+        "context_retrieval": false
+      },
+      "metrics": {
+        "faithfulness": 0.7056913226703332,
+        "answer_relevancy": 0.775544917833201,
+        "answer_similarity": 0.9180718869681956,
+        "answer_correctness": 0.49347249248661595
+      }
+    },
+    {
+      "parameters": {
+        "chunk_size": 1000,
+        "strategy": "recursive_text_splitter",
+        "context_retrieval": true
+      },
+      "metrics": {
+        "faithfulness": 0.6304635020152262,
+        "answer_relevancy": 0.8687097470628715,
+        "answer_similarity": 0.9354777243714881,
+        "answer_correctness": 0.5267203554300567
+      }
+    },
+    {
+      "parameters": {
+        "chunk_size": 1000,
+        "strategy": "recursive_text_splitter",
+        "context_retrieval": false
+      },
+      "metrics": {
+        "faithfulness": 0.6146770887842317,
+        "answer_relevancy": 0.8364120431749523,
+        "answer_similarity": 0.9247032507164432,
+        "answer_correctness": 0.49587849693760216
+      }
+    },
+        {
+      "parameters": {
+        "chunk_size": 1500,
+        "strategy": "recursive_text_splitter",
+        "context_retrieval": true
+      },
+      "metrics": {
+        "faithfulness": 0.7232719470942389,
+        "answer_relevancy": 0.9022534365281599,
+        "answer_similarity": 0.9260274960081842,
+        "answer_correctness": 0.5138166243833167
+      }
+    },
+    {
+      "parameters": {
+        "chunk_size": 1500,
+        "strategy": "recursive_text_splitter",
+        "context_retrieval": false
+      },
+      "metrics": {
+        "faithfulness": 0.6996536796536795,
+        "answer_relevancy": 0.6796068052724078,
+        "answer_similarity": 0.9135106876422093,
+        "answer_correctness": 0.44107507830592857
+      }
+    },
+    {
+      "parameters": {
+        "chunk_size": 2000,
+        "strategy": "recursive_text_splitter",
+        "context_retrieval": true
+      },
+      "metrics": {
+        "faithfulness": 0.6332872587182931,
+        "answer_relevancy": 0.9223700189345198,
+        "answer_similarity": 0.920629694117265,
+        "answer_correctness": 0.4794509585861212
+      }
+    },
+    {
+      "parameters": {
+        "chunk_size": 2000,
+        "strategy": "recursive_text_splitter",
+        "context_retrieval": false
+      },
+      "metrics": {
+        "faithfulness": 0.6191190476190477,
+        "answer_relevancy": 0.7371728660235272,
+        "answer_similarity": 0.8983002358147943,
+        "answer_correctness": 0.42323912410690967
+      }
+    }
+  ]
